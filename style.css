@@ -1,8 +1,8 @@
  /*BEGIN PS4 Controller Styling*/
 .controller.ds4 {
     background: url(dualsense-form.svg);
-    height: 806px;
-    width: 806px;
+    height: 560px;
+    width: 712px;
     /*    margin-left: -403px;
         margin-top: -280px;*/
 }
