@@ -116,9 +116,9 @@ background-position: 0 -70px;
 .ds4 .arrows {
     position: absolute;
     width: 352px;
-    height: 46px;
-    top: 142px;
-    left: 227px;
+    height: 37px;
+    top: 128px;
+    left: 179px;
 }
 
 .ds4 .back, .ds4 .start {
@@ -141,7 +141,7 @@ background-position: 0 -70px;
 .ds4 .start {
     float: right;
     /* width: 28px; */
-    background-position: 28px 0;
+    background-position: 21px 0;
 }
 
 .ds4 .abxy {
