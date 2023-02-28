@@ -39,10 +39,9 @@
 }
 
 .ds4 .bumper {
-    width: 99px;
-    height: 23px;
-    background: url(ps4-assets/bumper.svg) no-repeat;
-    opacity: 0;
+    width: 96px;
+    height: 40px;
+    background: url(ps5-assets/bampers.svg) no-repeat;
 }
 
 .ds4 .bumpers {
@@ -54,7 +53,7 @@
 }
 
 .ds4 .bumper.pressed {
-    opacity: 1;
+    /* opacity: 1; */
 }
 
 .ds4 .bumper.left {
