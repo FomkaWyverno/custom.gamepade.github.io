@@ -42,6 +42,7 @@
     width: 96px;
     height: 40px;
     background: url(ps5-assets/bampers.svg) no-repeat;
+    opacity: 1;
 }
 
 .ds4 .bumpers {
