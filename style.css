@@ -55,6 +55,7 @@
 
 .ds4 .bumper.pressed {
     /* opacity: 1; */
+    background-position-y: -44px;
 }
 
 .ds4 .bumper.left {
