@@ -298,7 +298,7 @@ background-position: 0 -70px;
     background-image: url(ps4-white-assets/touchpad.svg);
 }
 
-.ds4.white .back, .ds4 .start {
+.ds4.white .back, .ds4.white .start {
     background-image: url(ps4-white-assets/start.svg);
 }
 
