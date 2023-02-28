@@ -122,16 +122,15 @@ background-position: 0 -70px;
 }
 
 .ds4 .back, .ds4 .start {
-    background: url(ps4-assets/start.svg);
-    width: 28px;
-    height: 46px;
-    opacity: 0;
+    background: url(ps5-assets/share%20options.svg);
+    width: 19px;
+    height: 38px;
 }
 
 .ds4 .back.pressed, .ds4 .start.pressed {
     /* background-position-y: -21px; */
     /* margin-top: 2px; */
-    opacity: 1;
+    background-position-y: 38px;
 }
 
 .ds4 .back {
@@ -300,7 +299,7 @@ background-position: 0 -70px;
 }
 
 .ds4.white .back, .ds4 .start {
-    background-image: url(ps5-assets/share%20options.svg);
+    background-image: url(ps4-white-assets/start.svg);
 }
 
 .ds4.white .button {
