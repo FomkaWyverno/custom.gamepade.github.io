@@ -331,6 +331,7 @@ background-position: 0 -70px;
     top: 342px;
     z-index: -1;
     border-radius: 56px;
+    animation: 3s infinite backlight alternate;
 }
 
 @keyframes backlight {
