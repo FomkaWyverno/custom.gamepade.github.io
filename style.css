@@ -322,6 +322,17 @@ background-position: 0 -70px;
     display: none;
 }
 
+#gamepad-1 {
+    display: block;
+    width: 301px;
+    height: 170px;
+    background: red;
+    left: 960px;
+    top: 342px;
+    z-index: -1;
+    border-radius: 56px;
+}
+
 @keyframes backlight {
     0% {
         background-color: #fce302;
