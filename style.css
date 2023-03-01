@@ -333,7 +333,7 @@ background-position: 0 -70px;
     animation: 3s infinite backlight alternate;
 }
 
-@keyframes backlight {
+@keyframes backlight-ukraine {
     0% {
         background-color: #fce302;
         box-shadow: 0px -1px 20px 5px #fce302;
@@ -341,5 +341,36 @@ background-position: 0 -70px;
     100% {
         background-color: #023cfc;
         box-shadow: 0px -1px 20px 5px #023cfc;
+    }
+}
+
+@keyframes backlight-rainbow {
+    0% {
+        background-color: #fc0202;
+        box-shadow: 0px -1px 20px 5px #fc0202;
+    }
+    15% {
+        background-color: #fcb902;
+        box-shadow: 0px -1px 20px 5px #fcb902;
+    }
+    30% {
+        background-color: #ebfc02;
+        box-shadow: 0px -1px 20px 5px #ebfc02;
+    }
+    45% {
+        background-color: #10bb01;
+        box-shadow: 0px -1px 20px 5px #10bb01;
+    }
+    60% {
+        background-color: #0ae0f0;
+        box-shadow: 0px -1px 20px 5px #0ae0f0;
+    }
+    75% {
+        background-color: #340af0;
+        box-shadow: 0px -1px 20px 5px #340af0;
+    }
+    95% {
+        background-color: #b700ff;
+        box-shadow: 0px -1px 20px 5px #b700ff;
     }
 }
