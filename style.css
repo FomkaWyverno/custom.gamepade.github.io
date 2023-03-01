@@ -330,7 +330,7 @@ background-position: 0 -70px;
     top: calc(50% - 97px);
     z-index: -1;
     border-radius: 56px;
-    animation: 3s infinite backlight alternate;
+    animation: 3s infinite backlight-rainbow alternate;
 }
 
 @keyframes backlight-ukraine {
