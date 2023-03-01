@@ -318,7 +318,7 @@ background-position: 0 -70px;
 
 /*END PS4 White Controller Styling*/
 
-.template { /*Backlight touchpad*/
+.ds4 .quadrant  { /*Backlight touchpad*/
     position: absolute;
     width: 311px;
     height: 200px;
