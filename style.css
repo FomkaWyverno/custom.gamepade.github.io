@@ -318,11 +318,11 @@ background-position: 0 -70px;
 
 /*END PS4 White Controller Styling*/
 
- #gamepad-1 * {   /*Backlight touchpad*/
+ #gamepad-1 * {  /* Disable display in inner elements */
     display: none;
 }
 
-#gamepad-1 {
+#gamepad-1 { /*Backlight touchpad*/
     display: block;
     width: 301px;
     height: 170px;
@@ -332,6 +332,10 @@ background-position: 0 -70px;
     z-index: -1;
     border-radius: 56px;
     animation: 3s infinite backlight alternate;
+}
+
+#gamepad-0.ds4.disconnected ~ #gamepad-1 { /* Backlight display disable when gamepad disconnected*/
+    display: none;
 }
 
 @keyframes backlight {
