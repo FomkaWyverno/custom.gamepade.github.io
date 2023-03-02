@@ -333,7 +333,7 @@ background-position: 0 -70px;
     animation: 60s infinite backlight-rainbow alternate;
 }
 
-#gamepad-0.ds4.disconnected ~ #gamepad-1 { /* Backlight display disable when gamepad disconnected*/
+#gamepad-0.ds4.disconnected ~ #gamepad-1 { /* Backlight disabled display when gamepad disconnected*/
     display: none;
 }
 
